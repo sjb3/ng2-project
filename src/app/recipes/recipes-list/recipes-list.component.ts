@@ -8,7 +8,9 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipesListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'Test', 'https://migrationology.com/south-korean-food-dishes/')
+    new Recipe('A Test Recipe', 'Test', 'https://www.eatingthaifood.com/wp-content/uploads/2014/01/thai-chicken-basil-recipe.jpg')
+    , new Recipe('A Test Recipe', 'Test', 'https://www.eatingthaifood.com/wp-content/uploads/2014/01/thai-chicken-basil-recipe.jpg')
+
   ];
 
   constructor() { }
